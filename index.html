@@ -35,6 +35,20 @@
             <li><a class="menu-li" href="">Contacts</a></li>
           </ul>
         </nav>
+        <button class="button-menu-mobile">
+          <svg
+            class="icon-menu-mobile"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <use
+              href="./images/iconform.svg#icon-menu"
+              width="24"
+              height="24"
+            ></use>
+          </svg>
+        </button>
         <address class="contact-adress">
           <ul class="contact-list">
             <li>
@@ -160,6 +174,7 @@
             <li class="command-list-item">
               <img
                 src="./images/1.jpg"
+                srcset="./images/1.jpg 1x, ./images/1-2x.jpg 2x "
                 class="image-our-tem"
                 width="264"
                 alt="Mark Guerrero"
@@ -218,7 +233,8 @@
             </li>
             <li class="command-list-item">
               <img
-                src="./images/2.png"
+                src="./images/2.jpg"
+                srcset="./images/2.jpg 1x, ./images/2-2x.jpg 2x "
                 class="image-our-tem"
                 width="264"
                 alt="Tom Ford"
@@ -278,6 +294,7 @@
             <li class="command-list-item">
               <img
                 src="./images/3.jpg"
+                srcset="./images/3.jpg 1x, ./images/3-2x.jpg 2x "
                 class="image-our-tem"
                 width="264"
                 alt="Camila Garcia"
@@ -337,6 +354,7 @@
             <li class="command-list-item">
               <img
                 src="./images/4.jpg"
+                srcset="./images/4.jpg 1x, ./images/4-2x.jpg 2x "
                 class="image-our-tem"
                 width="264"
                 alt="Daniel Wilson"
@@ -403,13 +421,19 @@
           <ul class="container-grid">
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-1-1x.jpg 1x , ./images/our-portfolio/mob/mob-1-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-1-1x.jpg 1x , ./images/our-portfolio/tab/tab-1-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-1-1x.jpg 1x , ./images/our-portfolio/desktop/desk-1-2x.jpg 2x"/>
+                  <img
                   src="./images/imges1.jpg"
                   class="image-items"
                   alt="Banking App"
                   width="360"
                   height="300"
                 />
+                </picture>
+            
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -423,13 +447,19 @@
             </li>
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-2-1x.jpg 1x , ./images/our-portfolio/mob/mob-2-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-2-1x.jpg 1x , ./images/our-portfolio/tab/tab-2-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-2-1x.jpg 1x , ./images/our-portfolio/desktop/desk-2-2x.jpg 2x"/>
+                  <img
                   src="./images/imges2.jpg"
                   class="image-items"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
                 />
+                </picture>
+                
 
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -445,13 +475,19 @@
             </li>
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-3-1x.jpg 1x , ./images/our-portfolio/mob/mob-3-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-3-1x.jpg 1x , ./images/our-portfolio/tab/tab-3-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-3-1x.jpg 1x , ./images/our-portfolio/desktop/desk-3-2x.jpg 2x"/>
+                  <img
                   src="./images/imges3.jpg"
                   class="image-items"
                   alt="Meditation App"
                   width="360"
                   height="300"
                 />
+                </picture>
+               
 
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -467,13 +503,19 @@
             </li>
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-4-1x.jpg 1x , ./images/our-portfolio/mob/mob-4-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-4-1x.jpg 1x , ./images/our-portfolio/tab/tab-4-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-4-1x.jpg 1x , ./images/our-portfolio/desktop/desk-4-2x.jpg 2x"/>
+                  <img
                   src="./images/imges4.jpg"
                   class="image-items"
                   alt="Taxi Service"
                   width="360"
                   height="300"
                 />
+                </picture>
+                
 
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -489,13 +531,19 @@
             </li>
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-5-1x.jpg 1x , ./images/our-portfolio/mob/mob-5-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-5-1x.jpg 1x , ./images/our-portfolio/tab/tab-5-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-5-1x.jpg 1x , ./images/our-portfolio/desktop/desk-5-2x.jpg 2x"/>
+                  <img
                   src="./images/imges5.jpg"
                   class="image-items"
                   alt=" Screen Illustrations"
                   width="360"
                   height="300"
                 />
+                </picture>
+               
 
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -511,13 +559,19 @@
             </li>
             <li class="portfolio-item">
               <div class="conteiner-img">
-                <img
+                <picture>
+                  <source media="(max-width:767px)" srcset="./images/our-portfolio/mob/mob-6-1x.jpg 1x , ./images/our-portfolio/mob/mob-6-2x.jpg 2x"/>
+                  <source media="(min-width:768px) and (max-width:1157px)" srcset="./images/our-portfolio/tab/tab-6-1x.jpg 1x , ./images/our-portfolio/tab/tab-6-2x.jpg 2x"/>
+                  <source media="(min-width:1158px)" srcset="./images/our-portfolio/desktop/desk-6-1x.jpg 1x , ./images/our-portfolio/desktop/desk-6-2x.jpg 2x"/>
+                  <img
                   src="./images/imges6.jpg"
                   class="image-items"
                   alt="Online Courses"
                   width="360"
                   height="300"
                 />
+                </picture>
+           
 
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -744,14 +798,103 @@
                   ></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-
-              <a href="" class="link-polycity">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+  
+                <a href="" class="link-polycity">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button type="button" class="button-form">Send</button>
         </form>
       </div>
+    </div>
+    <div class="mobile-menu">
+      <button type="button" class="button-icon-close-mobile">
+        <svg class="button-icon-close-svg" width="8" height="8">
+          <use
+            href="./images/iconform.svg#icon-close"
+            class="icon-fly-futer"
+            width="8"
+            height="8"
+          ></use>
+        </svg>
+      </button>
+<ul class="mobile-menu-list">
+  <il class="mobile-menu-item"><a href="./index.html" class="mobile-menu-link current">Studio</a></il>
+  <il class="mobile-menu-item"><a href="" class="mobile-menu-link">Portfolio</a></il>
+  <il class="mobile-menu-item"><a href="" class="mobile-menu-link">Contacts</a></il>
+</ul>
+<ul class="mobile-menu-contact" >
+  <li class="mobile-contact-item"><a href="" class="mobile-contact-link">+11 (000) 111-11-11</a></li>
+  <li class="mobile-contact-item"><a href="" class="mobile-contact-link">info@devstudio.com</a></li>
+</ul>
+<ul class="group-icon-mobile">
+  <li class="mobile-li">
+    <a class="footer-links-icon-mobile" href="twitter.com">
+      <svg
+        class="icon-footer"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <use
+          href="./images/icons.svg#icon-twitter"
+          width="24"
+          height="24"
+        ></use>
+      </svg>
+    </a>
+  </li>
+  <li class="mobile-li">
+    <a class="footer-links-icon-mobile" href="instagram.com">
+      <svg
+        class="icon-footer"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <use
+          href="./images/icons.svg#icon-instagram"
+          width="24"
+          height="24"
+        ></use>
+      </svg>
+    </a>
+  </li>
+  <li class="mobile-li">
+    <a class="footer-links-icon-mobile" href="facebook.com">
+      <svg
+        class="icon-footer"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <use
+          href="./images/icons.svg#icon-facebook"
+          width="24"
+          height="24"
+        ></use>
+      </svg>
+    </a>
+  </li>
+  <li class="mobile-li">
+    <a class="footer-links-icon-mobile" href="linkedin.com">
+      <svg
+        class="icon-footer"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <use
+          href="./images/icons.svg#icon-linkedin"
+          width="24"
+          height="24"
+        ></use>
+      </svg>
+    </a>
+  </li>
+  </ul>
     </div>
     <!-- </div> -->
   </body>
