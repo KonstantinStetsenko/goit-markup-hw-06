@@ -423,32 +423,14 @@ color: white;
 }
 @media(min-width:768px){
   .title-sec {
-  display: block;
-  letter-spacing: 0.02em;
   line-height: 1.07;
-  text-align: center;
   font-size: 56px;
-  font-weight: 700;
-  color: white;
-  min-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  width:496px;
 }
 }
 @media(min-width:1158px){
   .title-sec {
-  display: block;
-  letter-spacing: 0.02em;
-  line-height: 1.07;
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  color: white;
-  max-width: 496px;
-  height: 160px;
-  margin-left: auto;
-  margin-right: auto;
-  width:496px;
+
 }
 }
 
